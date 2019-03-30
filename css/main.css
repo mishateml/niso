@@ -1,0 +1,32 @@
+/*================================
+Main Stayle
+==================================*/
+.container {
+    background-color: aquamarine;
+    padding: 1rem;
+
+}
+
+.about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-nav li {
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-left: 2%;
+    box-shadow: 2px 2px 3px rgb(148, 158, 214);
+}
+
+.gallery--list img {
+    width: 20%;
+    height: auto;
+}
+
+.gallery--list {
+    display: inline-block;
+}
