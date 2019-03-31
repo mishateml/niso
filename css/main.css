@@ -1,9 +1,22 @@
 /*================================
 Main Stayle
 ==================================*/
+li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
 .container {
-    background-color: aquamarine;
-    padding: 1rem;
+    background-color: rgb(243, 240, 240);
 
 }
 
@@ -12,14 +25,51 @@ Main Stayle
     margin: 0 auto;
 }
 
-.header-nav li {
-    list-style-type: none;
+.about--header {
+    margin-top: 0;
+}
+
+
+.header--contact {
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    margin: 0;
+    font-size: 0.8rem;
+
+}
+
+.header--contact li {
     display: inline-block;
-    border: 2px solid blue;
-    padding: 3px 5px;
-    border-radius: 5px;
+    text-align: center;
+    margin-right: 15%;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    border: rgb(31, 23, 23) solid 1px;
+}
+
+.logo {
+    font-size: 3rem;
+    text-align: center;
+    display: inline-block;
+    text-align: left;
+    color: aqua;
+}
+
+.header--nav {
+    margin-top: 1px;
+    background: #000;
+    margin-bottom: 0;
+    color: azure
+}
+
+.header--nav li {
+    display: inline-block;
+    padding: 3px 8px;
     margin-left: 2%;
-    box-shadow: 2px 2px 3px rgb(148, 158, 214);
 }
 
 .gallery--list img {
@@ -27,6 +77,6 @@ Main Stayle
     height: auto;
 }
 
-.gallery--list {
+.gallery--list li {
     display: inline-block;
 }
