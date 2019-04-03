@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
 /*================================
 Main Stayle
 ==================================*/
+body{
+    font-family: 'Varela Round', sans-serif;
+    direction: rtl;
+
+}
 li {
     list-style: none;
 }
 
-a:link,
+משה a:link,
 a:visited {
     text-decoration: none;
     color: aliceblue;
@@ -26,13 +34,21 @@ a:hover {
 } */
 
 .about--header {
-    margin-top: 0;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+.about--desc{
+    text-indent: 2rem;
+    direction: rtl;
+
 }
 
 
 .header--contact {
     text-align: center;
-    background-color: black;
+    background-color: #002237;
     color: antiquewhite;
     margin: 0;
     font-size: 0.8rem;
@@ -47,8 +63,8 @@ a:hover {
 
 nav {
     text-align: center;
-    background-color: rgb(20, 20, 20);
-    border: rgb(31, 23, 23) solid 1px;
+    background-color:  #023453;
+    border-top: rgb(31, 23, 23) solid 1px;
 }
 
 .logo {
@@ -61,7 +77,7 @@ nav {
 
 .header--nav {
     margin-top: 1px;
-    background: #000;
+    background: #002237;
     margin-bottom: 0;
     color: azure
 }
